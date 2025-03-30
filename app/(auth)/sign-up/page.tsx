@@ -1,8 +1,9 @@
+import AuthForm from "@/components/AuthForm"
 
 const SignUp = () => {
   return (
     <div>
-      SignUp
+      <AuthForm type='sign-up' />
     </div>
   )
 }
